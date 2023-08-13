@@ -1,0 +1,224 @@
+.home_item {
+  background: none;
+}
+
+.destination_item {
+  background: url("/img/moon.png"), url("/img/mobile/Bitmap-destination.png");
+  background-repeat: no-repeat;
+  background-position: top 140px center, center bottom 0;
+  background-size: 170px 170px, 100% 100%;
+  background-color: #000;
+}
+
+.moon-black-shadow {
+  position: absolute;
+  top: 190px;
+  left: calc(50% - 30px);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #0b0d17;
+  filter: blur(21.978522999999996px);
+}
+
+.home_item .container .content-wrap .data-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home_item .container .content-wrap .data-wrap .title {
+  margin-top: 24px;
+  text-transform: uppercase;
+}
+
+.home_item .container .content-wrap .data-wrap .title span {
+  padding-right: 18px;
+  opacity: 0.25;
+}
+
+.destination_item .container .content-wrap .data-wrap .destination-link-wrap {
+  margin-top: 228px;
+  display: flex;
+  gap: 27px;
+}
+
+.destination_item .container .content-wrap .data-wrap .destination-link-wrap a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.362px;
+}
+
+.destination_item
+  .container
+  .content-wrap
+  .data-wrap
+  .destination-link-wrap
+  .active,
+.destination_item
+  .container
+  .content-wrap
+  .data-wrap
+  .destination-link-wrap
+  a:hover {
+  text-decoration: underline 3px solid rgba(255, 255, 255, 0.5);
+  text-underline-offset: 8px;
+}
+
+.home_item .container .content-wrap .data-wrap .heading {
+  padding-top: 24px;
+  padding-bottom: 0;
+}
+
+.home_item .container .content-wrap hr {
+  padding: 0 155px;
+  margin: 32px 0;
+  border: 1px solid #383b4b;
+}
+
+.destination_item .container .content-wrap .bottom-data {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 57px;
+}
+
+.destination_item .container .content-wrap .bottom-data div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.destination_item .container .content-wrap .bottom-data div .title {
+  color: #d0d6f9;
+  text-align: center;
+  font-family: Barlow Condensed;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.362px;
+  text-transform: uppercase;
+}
+
+.destination_item .container .content-wrap .bottom-data div h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Bellefair;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+/* 768px */
+@media screen and (min-width: 48em) {
+  .destination_item {
+    background: url("/img/moon.png"), url("/img/tablet/Bitmap-destination.png");
+    background-repeat: no-repeat;
+    background-position: top 220px center, center bottom 0;
+    background-size: 300px 300px, 100% 100%;
+    background-color: #000;
+  }
+
+  .moon-black-shadow {
+    position: absolute;
+    top: 310px;
+    left: calc(50% - 50px);
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: #0b0d17;
+    filter: blur(40px);
+  }
+
+  .home_item .container .content-wrap .data-wrap {
+    position: relative;
+  }
+
+  .home_item .container .content-wrap .data-wrap .title {
+    position: absolute;
+    top: 40px;
+    left: -85px;
+  }
+
+  .destination_item .container .content-wrap .data-wrap .destination-link-wrap {
+    margin-top: 477px;
+    gap: 35px;
+  }
+
+  .destination_item .container .content-wrap .data-wrap .destination-link-wrap {
+    font-size: 16px;
+  }
+
+  .destination_item
+    .container
+    .content-wrap
+    .data-wrap
+    .destination-link-wrap
+    .active,
+  .destination_item
+    .container
+    .content-wrap
+    .data-wrap
+    .destination-link-wrap
+    a:hover {
+    text-underline-offset: 12px;
+  }
+
+  .home_item .container .content-wrap .data-wrap .heading {
+    padding-top: 47px;
+    font-size: 80px;
+  }
+
+  .home_item .container .content-wrap .data-wrap .description {
+    max-width: 573px;
+  }
+
+  .home_item .container .content-wrap hr {
+    margin-top: 49px;
+    margin-bottom: 28px;
+    padding: 0 295px;
+  }
+
+  .destination_item .container .content-wrap .bottom-data {
+    flex-direction: row;
+    gap: 80px;
+  }
+}
+
+/* 992px */
+@media screen and (min-width: 62em) {
+}
+
+/* 1200px */
+@media screen and (min-width: 75em) {
+  .destination_item {
+    background: url("/img/moon.png"), url("/img/desktop/Bitmap-destination.png");
+    background-repeat: no-repeat;
+    background-position: top 375px center, center bottom 0;
+    background-size: 445px 450px, 100% 100%;
+    background-color: #000;
+  }
+
+  .moon-black-shadow {
+    position: absolute;
+    top: 490px;
+    left: calc(50% - 65px);
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+    background: #0b0d17;
+    filter: blur(65px);
+  }
+
+  .home_item .container .icon-wrap .logo::before {
+    content: none;
+  }
+}
