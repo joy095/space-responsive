@@ -1,0 +1,40 @@
+.destination_item_mars {
+  background: url("/img/mars.png"), url("/img/mobile/Bitmap-destination.png");
+  background-repeat: no-repeat;
+  background-position: top 140px center, center bottom 0;
+  background-size: 170px auto, 100% 100%;
+  background-color: #000;
+}
+
+/* 768px */
+@media screen and (min-width: 48em) {
+  .destination_item_mars {
+    background: url("/img/mars.png"), url("/img/tablet/Bitmap-destination.png");
+    background-repeat: no-repeat;
+    background-position: top 220px center, center bottom 0;
+    background-size: 300px auto, 100% 100%;
+    background-color: #000;
+  }
+}
+
+/* 1200px */
+@media screen and (min-width: 75em) {
+  .destination_item_mars {
+    background: url("/img/mars.png"), url("/img/desktop/Bitmap-destination.png");
+    background-repeat: no-repeat;
+    background-position: top 375px center, center bottom 0;
+    background-size: 445px auto, 100% 100%;
+    background-color: #000;
+  }
+}
+
+/* 1366px */
+@media (min-width: 85.375em) {
+  .destination_item_mars {
+    background: url("/img/mars.png"), url("/img/desktop/Bitmap-destination.png");
+    background-repeat: no-repeat;
+    background-position: top 375px left calc(50% - 200px), center bottom 0;
+    background-size: 445px auto, 100% 100%;
+    background-color: #000;
+  }
+}

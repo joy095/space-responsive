@@ -329,7 +329,8 @@ p {
     content: "";
     position: absolute;
     border: 1px solid rgba(255, 255, 255, 0.25);
-    width: calc(100vw - 990px);
+    /* width: calc(100vw - 990px); */
+    width: 30vw;
     right: 800px;
   }
 
