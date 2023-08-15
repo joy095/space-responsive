@@ -9,6 +9,7 @@
 
 .destination_item .container .content-wrap .data-wrap .data-title {
   font-size: 14px;
+  margin-top: 37px;
 }
 
 .destination_item
@@ -103,59 +104,63 @@
     background-color: #000;
     min-height: 1025px;
   }
-}
 
-.destination_item
-  .container
-  .content-wrap
-  .data-wrap
-  .destination-link-wrap
-  .active {
-  height: 60px;
-  width: 60px;
-}
+  .destination_item .container .content-wrap .data-wrap .data-title {
+    margin-top: 630px;
+  }
 
-.destination_item
-  .container
-  .content-wrap
-  .data-wrap
-  .destination-link-wrap
-  .destination-link {
-  height: 60px;
-  width: 60px;
-}
+  .destination_item
+    .container
+    .content-wrap
+    .data-wrap
+    .destination-link-wrap
+    .active {
+    height: 60px;
+    width: 60px;
+  }
 
-.destination_item
-  .container
-  .content-wrap
-  .data-wrap
-  .destination-link-wrap
-  .active
-  span {
-  font-size: 24px;
-}
+  .destination_item
+    .container
+    .content-wrap
+    .data-wrap
+    .destination-link-wrap
+    .destination-link {
+    height: 60px;
+    width: 60px;
+  }
 
-.destination_item
-  .container
-  .content-wrap
-  .data-wrap
-  .destination-link-wrap
-  .destination-link
-  span {
-  font-size: 24px;
-}
+  .destination_item
+    .container
+    .content-wrap
+    .data-wrap
+    .destination-link-wrap
+    .active
+    span {
+    font-size: 24px;
+  }
 
-.destination_item .container .content-wrap .data-wrap .data-title {
-  font-size: 16px;
-  margin-top: 630px;
-}
+  .destination_item
+    .container
+    .content-wrap
+    .data-wrap
+    .destination-link-wrap
+    .destination-link
+    span {
+    font-size: 24px;
+  }
 
-.destination_item .container .content-wrap .data-wrap .destination-link-wrap {
-  top: 520px;
-}
+  .destination_item .container .content-wrap .data-wrap .data-title {
+    font-size: 16px;
+    margin-top: 630px;
+  }
 
-.destination_item .container .content-wrap .data-wrap .heading {
-  padding-top: 16px;
+  .destination_item .container .content-wrap .data-wrap .destination-link-wrap {
+    top: 520px;
+  }
+
+  .destination_item .container .content-wrap .data-wrap .heading {
+    padding-top: 16px;
+  }
 }
 
 /* 992px */
@@ -168,9 +173,33 @@
     background: url("/img/desktop/launch-veachile.png"),
       url("/img/desktop/technology-bg.png");
     background-repeat: no-repeat;
-    background-position: top 375px right 20%, center bottom 0;
+    background-position: top 300px right 0, center bottom 0;
     background-size: auto 680px, 100% 100%;
     background-color: #000;
+  }
+
+  .destination_item .container .content-wrap .data-wrap .data-title {
+    margin-top: 200px;
+  }
+
+  .home_item .container .content-wrap .data-wrap {
+    padding-left: 40px;
+  }
+
+  .destination_item .container .content-wrap .data-wrap .destination-link-wrap {
+    top: 135px;
+    transform: rotate(270deg);
+    padding-left: 155px;
+  }
+
+  .destination_item
+    .container
+    .content-wrap
+    .data-wrap
+    .destination-link-wrap
+    .destination-link
+    span {
+    transform: rotate(90deg);
   }
 }
 
@@ -180,12 +209,60 @@
     background: url("/img/desktop/launch-veachile.png"),
       url("/img/desktop/technology-bg.png");
     background-repeat: no-repeat;
-    background-position: top 315px right 20%, center bottom 0;
+    background-position: top 315px right 0, center bottom 0;
     background-size: auto 712px, 100% 100%;
     background-color: #000;
   }
 
-  .home_item .container .content-wrap {
-    /* min-width: 1366px; */
+  .destination_item .container .content-wrap .data-wrap .destination-link-wrap {
+    top: 80px;
+    padding-left: 40px;
+  }
+
+  .home_item .container .content-wrap .data-wrap .title {
+  }
+
+  .destination_item
+    .container
+    .content-wrap
+    .data-wrap
+    .destination-link-wrap
+    .active {
+    height: 80px;
+    width: 80px;
+  }
+
+  .destination_item
+    .container
+    .content-wrap
+    .data-wrap
+    .destination-link-wrap
+    .destination-link {
+    height: 80px;
+    width: 80px;
+  }
+
+  .destination_item
+    .container
+    .content-wrap
+    .data-wrap
+    .destination-link-wrap
+    .active
+    span {
+    font-size: 32px;
+  }
+
+  .destination_item
+    .container
+    .content-wrap
+    .data-wrap
+    .destination-link-wrap
+    .destination-link
+    span {
+    font-size: 32px;
+  }
+
+  .home_item .container .content-wrap .data-wrap {
+    padding-left: 90px;
   }
 }

@@ -140,7 +140,7 @@ hr {
 
   .home_item .container .content-wrap {
     gap: 0;
-    min-width: 1200px;
+    min-width: 1085px;
     display: flex;
     align-items: flex-start;
   }
