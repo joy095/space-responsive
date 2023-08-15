@@ -1,0 +1,45 @@
+.destination_item {
+  background: url("/img/crew-specialist.png"), url("/img/mobile/crew-bg.png");
+  background-repeat: no-repeat;
+  background-position: top 140px center, center bottom 0;
+  background-size: auto 222px, 100% 100%;
+  background-color: #000;
+}
+
+/* 768px */
+@media screen and (min-width: 48em) {
+  .destination_item {
+    background: url("/img/crew-specialist.png"), url("/img/tablet/crew-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom -40px center, center bottom 0;
+    background-size: auto 572px, 100% 100%;
+    background-color: #000;
+    min-height: 1025px;
+  }
+}
+
+/* 992px */
+@media screen and (min-width: 62em) {
+}
+
+/* 1200px */
+@media screen and (min-width: 75em) {
+  .destination_item {
+    background: url("/img/crew-specialist.png"), url("/img/desktop/crew-bg.png");
+    background-repeat: no-repeat;
+    background-position: top 375px right 20%, center bottom 0;
+    background-size: auto 680px, 100% 100%;
+    background-color: #000;
+  }
+}
+
+/* 1366px */
+@media (min-width: 85.375em) {
+  .destination_item {
+    background: url("/img/crew-specialist.png"), url("/img/desktop/crew-bg.png");
+    background-repeat: no-repeat;
+    background-position: top 315px right 20%, center bottom 0;
+    background-size: auto 712px, 100% 100%;
+    background-color: #000;
+  }
+}
