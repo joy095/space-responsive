@@ -1,0 +1,45 @@
+.destination_item {
+  background: url("/img/mobile/space-port.png"),
+    url("/img/mobile/technology-bg.png");
+  background-repeat: no-repeat;
+  background-position: top 140px center, center bottom 0;
+  background-size: auto 222px, 100% 100%;
+  background-color: #000;
+}
+
+/* 768px */
+@media screen and (min-width: 48em) {
+  .destination_item {
+    background: url("/img/tablet/space-port.png"),
+      url("/img/tablet/technology-bg.png");
+    background-repeat: no-repeat;
+    background-position: top 250px center, center bottom 0;
+    background-size: auto auto, 100% 100%;
+    background-color: #000;
+    min-height: 1025px;
+  }
+}
+
+/* 1200px */
+@media screen and (min-width: 75em) {
+  .destination_item {
+    background: url("/img/desktop/space-port.png"),
+      url("/img/desktop/technology-bg.png");
+    background-repeat: no-repeat;
+    background-position: top 300px right 0, center bottom 0;
+    background-size: auto 680px, 100% 100%;
+    background-color: #000;
+  }
+}
+
+/* 1366px */
+@media (min-width: 85.375em) {
+  .destination_item {
+    background: url("/img/desktop/space-port.png"),
+      url("/img/desktop/technology-bg.png");
+    background-repeat: no-repeat;
+    background-position: top 315px right 0, center bottom 0;
+    background-size: auto 712px, 100% 100%;
+    background-color: #000;
+  }
+}

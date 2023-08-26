@@ -46,6 +46,9 @@ p {
   height: 21px;
   cursor: pointer;
 }
+.home_item .container .icon-wrap .handbarger:hover {
+  opacity: 0.8;
+}
 
 .home_item .container .icon-wrap .logo {
   width: 40px;
@@ -54,6 +57,80 @@ p {
   border-radius: 50%;
   background: url("/img/mobile/icon/logo.svg") no-repeat center center;
   cursor: pointer;
+}
+
+#header-links-mobile {
+  display: none;
+  flex-direction: column;
+  height: 100%;
+  width: 65%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.774227142333984px);
+  gap: 32px;
+  z-index: 2;
+}
+
+#header-links-mobile .cross:hover {
+  opacity: 0.8;
+}
+
+#header-links-mobile .cross {
+  height: 19px;
+  width: 19px;
+  padding-bottom: calc(64px - 32px);
+  position: absolute;
+  top: 34px;
+  right: 24px;
+  cursor: pointer;
+}
+
+#header-links-mobile .link:hover .link-stage {
+  width: 4px;
+  height: 31px;
+  background: #fff;
+  position: absolute;
+  top: -6px;
+  right: 0;
+  opacity: 0.5;
+}
+
+#header-links-mobile .active {
+  width: 4px;
+  height: 31px;
+  background: #fff;
+  position: absolute;
+  top: -6px;
+  right: 0;
+  padding: 0;
+}
+
+#header-links-mobile a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.7px;
+  padding-left: 32px;
+  position: relative;
+}
+
+#header-links-mobile a:nth-child(2) {
+  margin-top: 118px;
+}
+
+#header-links-mobile a span {
+  padding: 4px;
+}
+
+#header-links-mobile a:nth-child(3) span {
+  padding: 5px;
 }
 
 .home_item .container .icon-wrap {
@@ -87,7 +164,6 @@ p {
 .home_item .container .content-wrap .data-wrap .heading {
   color: #fff;
   text-align: center;
-  font-family: Bellefair;
   font-size: 80px;
   font-style: normal;
   font-weight: 400;
@@ -133,6 +209,10 @@ p {
 }
 /* 768px */
 @media screen and (min-width: 48em) {
+  #header-links-mobile {
+    display: none;
+  }
+
   .home_item {
     background: url("/img/tablet/Bitmap-up.png"), url("/img/tablet/Bitmap.png");
     background-repeat: no-repeat;
